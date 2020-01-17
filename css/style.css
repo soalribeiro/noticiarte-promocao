@@ -1,0 +1,321 @@
+/* Texto - tipos de letra, cores, tamanhos */
+h1 {
+    color: #2b2b2b;
+    font-family: "axiforma bold";
+}
+
+h2 {
+    color: #2b2b2b;
+    font-family: "axiforma medium";
+    font-size: 250%;
+}
+
+h3 {
+    color: #2b2b2b;
+    font-family: "axiforma semibold";
+}
+
+h4 {
+    color: #2b2b2b;
+    font-family: "axiforma regular";
+}
+
+p {
+    color: #2b2b2b;
+    font-family: "axiforma regular";
+    font-size: 20px;
+}
+
+h1.negative {
+    color: #ffffff;
+}
+
+h2.negative {
+    color: #ffffff;
+}
+
+h3.negative {
+    color: #ffffff;
+}
+
+h4.negative {
+    color: #ffffff;
+}
+
+p.negative {
+    color: #ffffff;
+}
+
+
+
+/* Corpo da página - jumbotron, imagens, body */
+
+.jumbotron {
+    margin-top: 50px;
+    padding-top: 50px;
+    text-align: center;
+    height: 700px;
+    background-image: url("imagens/noti-jumbo.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-jumbo {
+    max-width: 500px;
+
+}
+
+.container-1 {
+    position: relative;
+    bottom: 35px;
+}
+
+.container-2 {
+    position: relative;
+    top: 50px;
+}
+
+
+
+.img-blue {
+    width: 100%;
+    position: relative;
+    bottom: 35px;
+}
+
+.img-blue2 {
+    width: 100%;
+}
+
+.img-blue3 {
+    width: 100%;
+    position: relative;
+    top: 45px;
+}
+
+.h1-sobre {
+    font-size: 70px;
+    position: relative;
+    bottom: 170px;
+}
+
+
+
+.img-super {
+    max-width: 250px;
+    margin: auto;
+    display: block;
+}
+
+.img-super-grupo {
+    max-width: 800px;
+}
+
+
+body {
+    background-color: #F2F2F2;
+    background-size: cover;
+}
+
+
+.container-blue {
+    background-color: #056CF2;
+}
+
+.jornais-texto {
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+
+/* Navbar e footer */
+
+.nav-blue {
+    /*width: 100%;  /* i'm assuming full width */
+    /*height: 50px; /* change it to desired width */
+    background-color: #0554f2 !important; /* change to desired color */
+}
+
+.navbar-brand {
+    display: inline-block;
+    vertical-align: top; /* if you want it vertically middle of the navbar. */
+}
+
+.noticiarte-nav {
+    width: 120px;
+    margin: 10px;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-family: "axiforma regular";
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #F2F2F2;
+}
+
+
+
+
+footer {
+    background-color: #056CF2;
+    padding: 20px;
+}
+
+
+
+
+/* Botões */
+.btn {
+    border-radius: 35px;
+}
+
+.btn-lg {
+    width: 200px;
+    text-transform: uppercase;
+    font-family: "axiforma semibold";
+}
+
+.btn-sm {
+    width: 100px;
+    font-family: "axiforma medium";
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #056CF2;
+    border-color: #056CF2;
+    border-width: 3px;
+}
+
+.btn-primary:hover {
+    color: #056CF2;
+    background-color: #FFFFFF;
+    border-color: #056CF2;
+    border-width: 3px;
+}
+
+.btn-secondary {
+    color: #FFFFFF;
+    background-color: #3D9DD9;
+    border-color: #3D9DD9;
+}
+
+.btn-secondary:hover {
+    color: #3D9DD9;
+    background-color: #FFFFFF;
+    border-color: #3D9DD9;
+    border-width: 3px;
+}
+
+.btn-danger {
+    color: #FFFFFF;
+    background-color: #FF3C35;
+    border-color: #FF3C35;
+}
+
+.btn-danger:hover {
+    color: #FF3C35;
+    background-color: #FFFFFF;
+    border-color: #FF3C35;
+    border-width: 3px;
+}
+
+.btn-outline-primary {
+    color:  #056CF2;
+    background-color: #FFFFFF;
+    border-color:  #056CF2;
+    border-width: 3px;
+}
+
+.btn-outline-primary:hover {
+    color: #FFFFFF;
+    background-color:  #056CF2;
+    border-color: #056CF2;
+}
+
+#btn-outline-entrar {
+    margin-right: 20px;
+}
+
+#btn-outline-entrar:hover {
+    border-color: #FFFFFF;
+}
+
+#btn-jumbo {
+    margin-left: 30px;
+}
+
+
+#btn-outline-sobre:hover {
+    border-color: #FFFFFF;
+}
+
+
+#btn-outline-enviar:hover {
+    border-color: #FFFFFF;
+}
+
+
+#btn-outline-voltar:hover {
+    border-color: #FFFFFF;
+}
+
+
+
+/* Cards */
+
+.card {
+    border-radius: 35px;
+}
+
+.card-img-top {
+    background-color: #0554F2;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+
+
+
+/* Formulários */
+.form-rounded {
+    border-radius: 35px;
+}
+
+.input-group-1 {
+    width: 150px;
+    padding-left: 20px;
+    color: #FFFFFF;
+    background-color: #3D9DD9;
+    border-width: 1px;
+    border-color: #3D9DD9;
+}
+
+.form-control-1 {
+    border-width: 2px;
+    border-color: #3D9DD9;
+}
+
+
+
+/* Tamanhos em mobile */
+@media only screen and (max-width: 990px){
+    body{font-size: 150% !important;}
+    p{font-size: 165% !important;}
+    h3{font-size: 165% !important;}
+    .btn{font-size: 120% !important;}
+    .btn-lg{width: 300px !important;}
+    .btn-sm{width: 150px !important;}
+    .form-rounded{font-size: 120% !important;}
+    .input-group-1{width: 200px !important;}
+}

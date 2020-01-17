@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Noticiarte</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./css/fonts-axiforma.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top nav-blue">
+     <a class="navbar-brand" href="index.html"><img src="imagens/logo_negativo.png" alt="notíciArte" class="noticiarte-nav"></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse justify-content-between align-items-center w-100" id="navbarTogglerDemo02">
+         <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+             <li class="nav-item active">
+                 <a class="nav-link" href="index.html#b1">Sobre</a>
+             </li>
+             <li class="nav-item active">
+                 <a class="nav-link" href="index.html#b2">Jornais</a>
+             </li>
+             <li class="nav-item active">
+                 <a class="nav-link" href="index.html#b3">Contactos</a>
+             </li>
+         </ul>
+         <form class="form-inline my-2 my-lg-0">
+             <a href="#" class="btn btn-sm btn-outline-primary my-2 my-sm-0" id="btn-outline-entrar">
+                 Entrar
+             </a> <!-- Falta o link para o login -->
+         </form>
+     </div>
+ </nav>
+
+<div class="jumbotron text-center jumbotron-fluid bg-dark">
+    <div class="container">
+        <img src="imagens/logo_cores.png" class="img-jumbo">
+        <br>
+        <br>
+        <h2>A arte de fazer notícias</h2>
+        <br>
+        <a href="#" class="btn btn-lg btn-outline-primary">Entrar</a>
+        <a href="#" class="btn btn-lg btn-primary" id="btn-jumbo">Registar</a>
+    </div> <!-- Faltam os links para o login e o registo -->
+</div>
+
+<div class="container-fluid container-blue container-1" id="b1">
+    <div class="container justify-content-center">
+        <div class="row justify-content-center">
+            <h2 class="negative">Sobre NotíciArte</h2>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <img src="imagens/super1.png" class="img-super">
+                <br>
+                <p class="negative">Cria uma página personalizada para o teu jornal digital em apenas alguns minutos com
+                    a ajuda de templates fáceis de usar.</p>
+                <br>
+                <br>
+            </div>
+            <div class="col-lg-4 text-center">
+                <img src="imagens/Super2.png" class="img-super">
+                <br>
+                <p class="negative">Depois convida outras pessoas para fazerem parte do teu jornal. Tu serás o Editor e
+                    terás controlo sobre tudo que é publicado!</p>
+                <br>
+                <br>
+            </div>
+            <div class="col-lg-4 text-center">
+                <img src="imagens/Super3.png" class="img-super">
+                <br>
+                <p class="negative">Ou encontra o jornal em que queres participar e pede para aderir como Repórter.
+                    Assim que o editor do jornal aceitar teu pedido, poderás começar a criar notícias.</p>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <a href="sobre.html" class="btn btn-lg btn-outline-primary" id="btn-outline-sobre">Mais Sobre</a>
+        </div>
+    </div>
+</div>
+
+<img src="imagens/blue1.png" class="img-blue">
+
+<div class="container">
+    <div class="row justify-content-center">
+        <h2 id="b2">Jornais</h2>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col justify-content-center">
+            <p class="text-center">Jornais criados com a plataforma NotíciArte que podes explorar, para te inspirares
+                para criar o teu!</p>
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="container">
+    <div class="row jornal">
+        <!-- JS jornais -->
+        <!-- Botão Ver não leva à página do jornal -->
+    </div>
+
+</div>
+
+
+<br>
+<div class="container text-center">
+    <a href="jornais.html" class="btn btn-lg btn-outline-primary">Mais Jornais</a>
+    <br>
+    <br>
+</div>
+
+<img src="imagens/blue2.png" class="img-blue2">
+
+<div class="container-fluid container-blue">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h2 class="negative" id="b3">Fala Connosco</h2>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="row">
+            <div class="col-lg-7">
+                <p class="negative">O Superarte está disponível para te ajudar! Se reparares alguma falha do sistema ou
+                    caso tenhas sugestões, envia mensagem através do formulário abaixo.</p>
+
+            </div>
+        </div>
+        <form id="myform">
+            <div class="container">
+                <div class="form-row">
+                    <div class="col-lg-7 mb-3">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text input-group-1 form-rounded">Nome</span>
+                            </div>
+                            <input type="text" id="name" class="form-control form-control-1 form-rounded"
+                                   placeholder="Nome" required>
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text input-group-1 form-rounded">Email</span>
+                            </div>
+                            <input type="email" id="email" class="form-control form-control-1 form-rounded"
+                                   placeholder="Adicionar Email" required>
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text input-group-1 form-rounded">Comentário</span>
+                            </div>
+                            <label for="comment"></label><textarea type="text" id="comment"
+                                                                   class="form-control form-control-1 form-rounded"
+                                                                   placeholder="Adicionar Comentário"
+                                                                   required></textarea>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <img src="imagens/super4.png" class="img-super">
+                        <br>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <button type="submit" class="btn btn-sm btn-outline-primary" id="btn-outline-enviar">Enviar</button>
+                </div> <!-- Botão Enviar não envia nada -->
+                <br>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+
+<footer>
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <p class="negative">notíciArte &copy; 2019</p>
+        </div>
+    </div>
+
+</footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+
+<!-- Script to get JSON file and display its content -->
+<script type = "text/javascript" language="javascript">
+
+
+    $(document).ready(function(){
+
+        $.ajax({
+            url: 'http://noticiarte.ddns.net/api/jornais',
+            method: 'GET',
+            type: 'json',
+            success: function (res) {
+                console.log(res);
+                // largura da resposta - res.length
+                for (var position = 0; position < 3; position++) {
+                    console.log(position);
+                    $('.jornal').append(
+                        '<div class="col-lg-4">' +
+                        '<div class="card">' +
+                        '<img src="http://noticiarte.ddns.net/uploads/' + res[position].imagem_jornal + '" class="card-img-top" alt="imagem jornal">' +
+                        '<div class="card-body">' +
+                        '<h4 class="card-title">' + res[position].nome_jornal + '</h4>' +
+                        '<p class="card-text">' + res[position].descricao + '</p>' +
+                        '<a href="#" class="btn btn-sm btn-secondary">Ver</a>' +
+                        '</div>' +
+                        '</div>' +
+                        '<br>' +
+                        '</div>');
+                        /*'<h2>'+res[position].nome_jornal +'</h2>'+
+                        '<div class="descricao">'+
+                            '<p>'+ res[position].descricao + '</p>'+
+                            '<img src="http://noticiarte.ddns.net/uploads/' + res[position].imagem_jornal + '">' +
+                        '</div>');*/
+                }
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    });
+</script>
+</html>

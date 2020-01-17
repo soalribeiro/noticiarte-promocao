@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: "axiforma black";
+    src: url("fonts/Kastelov - Axiforma Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma black italic";
+    src: url("fonts/Kastelov - Axiforma Black Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma bold";
+    src: url("fonts/Kastelov - Axiforma Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma bold italic";
+    src: url("fonts/Kastelov - Axiforma Bold Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma book";
+    src: url("fonts/Kastelov - Axiforma Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma book italic";
+    src: url("fonts/Kastelov - Axiforma Book Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma extrabold";
+    src: url("fonts/Kastelov - Axiforma ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma extrabold italic";
+    src: url("fonts/Kastelov - Axiforma ExtraBold Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma heavy";
+    src: url("fonts/Kastelov - Axiforma Heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma heavy italic";
+    src: url("fonts/Kastelov - Axiforma Heavy Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma italic";
+    src: url("fonts/Kastelov - Axiforma Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma light";
+    src: url("fonts/Kastelov - Axiforma Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma light italic";
+    src: url("fonts/Kastelov - Axiforma Light Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma medium";
+    src: url("fonts/Kastelov - Axiforma Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma medium italic";
+    src: url("fonts/Kastelov - Axiforma Medium Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma regular";
+    src: url("fonts/Kastelov - Axiforma Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma semibold";
+    src: url("fonts/Kastelov - Axiforma SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma semibold italic";
+    src: url("fonts/Kastelov - Axiforma SemiBold Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma thin";
+    src: url("fonts/Kastelov - Axiforma Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "axiforma thin italic";
+    src: url("fonts/Kastelov - Axiforma Thin Italic.otf") format("opentype");
+}
